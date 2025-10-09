@@ -27,6 +27,6 @@ class DataLoader:
    
     
 loader = DataLoader()
-df = loader.load_data("sales_data.csv")
+df = loader.load_data("sales_data.csv") # Пример файла
 info = loader.get_basic_info()
 print(info)
