@@ -5,7 +5,7 @@ import pandas as pd
 
 class TextDataLoader:
     def __init__(self):
-        self.path = '/Users/alisa/Desktop/uni_repo/d/result.json'
+        self.path = 'homework 3/result.json'
         self.posts_data = self.extract_posts()
 
     def _validate_file_path(self, path):
